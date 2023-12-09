@@ -1,0 +1,6 @@
+[2023-12-09 20:11:11,709] ERROR - Error in code
+Traceback (most recent call last):
+  File "D:\academics\projects\krishnaik_ml\src\exception.py", line 25, in <module>
+    a = 1 / 0
+        ~~^~~
+ZeroDivisionError: division by zero

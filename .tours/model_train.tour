@@ -1,0 +1,16 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "model_train",
+  "steps": [
+    {
+      "file": "src/exception.py",
+      "description": " It attempts to extract information about the current exception .The exc_info() method returns a tuple containing information about the current exception being handled. The three elements in the tuple are the exception type, the exception value, and a traceback object",
+      "line": 3
+    },
+    {
+      "file": "src/exception.py",
+      "description": " The __init__ method initializes the exception with an error message and error details.",
+      "line": 9
+    }
+  ]
+}

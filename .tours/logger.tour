@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "logger",
+  "steps": [
+    {
+      "file": "src/logger.py",
+      "description": "This line constructs the path to the log directory by joining the current working directory (os.getcwd()), a subdirectory named 'logs', and the timestamped log file.",
+      "line": 6
+    },
+    {
+      "file": "src/logger.py",
+      "description": "This line creates the 'logs' directory if it doesn't exist. The exist_ok=True argument ensures that the function does not raise an exception if the directory already exists",
+      "line": 7
+    },
+    {
+      "file": "src/logger.py",
+      "description": "This line constructs the full path to the log file by joining the log directory path and the timestamped log file name.",
+      "line": 9
+    },
+    {
+      "file": "src/logger.py",
+      "description": "filename: Specifies the file to which the log messages will be written.\r\nformat: Defines the log message format, including the timestamp, line number, logger name, log level, and the actual log message.\r\nlevel: Sets the logging level to INFO, which means it will log messages at the INFO level and above",
+      "line": 10
+    }
+  ]
+}
